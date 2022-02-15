@@ -55,6 +55,8 @@ function measureLoopSpeed() {
 
 measureLoopSpeed()
 
+
+// Callback implementado
 function a(done) {
   download('https://pbs.twimg.com/media/B4DDWBrCEAA8u4O.jpg:large', function doneDownloading(error, png) {
     // handle error if there was one
